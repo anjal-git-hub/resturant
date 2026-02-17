@@ -46,7 +46,7 @@ insert.appendChild(cright);
 
 
 var data ;
-fetch('/data.json')
+fetch('../data.json')
   .then(response => response.json())
   .then(jsonData => {
     console.log(jsonData);
